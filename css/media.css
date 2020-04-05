@@ -1,0 +1,71 @@
+@media (max-width: 1200px) {
+    #home .home__title {
+        right: 0;}
+    #home .home__contacts {
+        left: 20px;
+    }
+    #resume .col-12 .resume__title {
+        width: 54vw;}
+    .skills__content-box {
+        height: 60vh;
+        width: 54vw;}
+}
+
+@media (max-width: 992px){
+    #home .home__contacts {
+        position: absolute;
+        left: 0;}
+    #home .home__title {
+        top: 67vh;
+        left: 0;}
+    #resume .col-12 .resume__title {
+        width: 75vw;
+    }
+    .skills__content-box {
+    width: 75vw;
+        }
+
+}
+@media (max-width: 768px){
+    #home .home-menu {
+        display: none;}
+    #home .home__main img {
+        position: absolute;
+        left: -95px;}
+    #home .home__title {
+        left: 0;
+    }
+    #resume .resume-list ul li {
+        display: block;
+        width: 100%;}
+    .skills__content-box {
+        height: 100%;}
+    .experience__item {
+        top: -52px;}
+}
+@media (max-width: 540px){
+    #home .home__main img {
+        left: -220px;
+        top: -32px;}
+    #home .home__title {
+        font-size: 18px;
+        top: 60vh;
+     }
+    #home .home__contacts a {
+        font-size: 14px;
+    }
+    #home .home__contacts {
+        top: 425px;
+    }
+    #home .social-wrap__title {
+        margin: 20px 20px;
+    }
+    #home .social-wrap {
+        bottom: 3rem;
+     }
+    .experience__item {
+        top: -100px;
+    }
+    .tabs .skills__label {
+        text-align: left;}
+}
